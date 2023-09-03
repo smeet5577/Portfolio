@@ -1,9 +1,9 @@
 import React from 'react'
 import travelSite from '../assets/portfolio/travel.jpg'
 import movix from '../assets/portfolio/movix.jpg'
-import navbar from '../assets/portfolio/navbar.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+// import navbar from '../assets/portfolio/navbar.jpg'
+// import reactParallax from '../assets/portfolio/reactParallax.jpg'
+// import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 const Portfolio = () => {
@@ -17,24 +17,24 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: reactParallax
-        },
-        {
-            id: 3,
-            src: navbar
-        },
-        {
-            id: 4,
-            src: reactSmooth
-        },
-        {
-            id: 5,
             src: movix,
             demo: "https://sm-movix-eecu9iaet-smeet5577.vercel.app/",
-            code: "https://github.com/smeet5577/sm-movix",
+            code: "https://github.com/smeet5577/sm-movix", 
         },
+        // {
+        //     id: 3,
+        //     src: navbar
+        // },
+        // {
+        //     id: 4,
+        //     src: reactSmooth
+        // },
+        // {
+        //     id: 5,
+        //     src: reactParallax
+        // },
         {
-            id: 6,
+            id: 3,
             src: reactWeather 
         },
     ]
