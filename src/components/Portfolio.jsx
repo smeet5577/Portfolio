@@ -1,7 +1,7 @@
 import React from 'react'
 import travelSite from '../assets/portfolio/travel.jpg'
 import movix from '../assets/portfolio/movix.jpg'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
+import realEstate from '../assets/portfolio/realEstate.jpg'
 import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import navbar from '../assets/portfolio/navbar.jpg'
@@ -24,7 +24,9 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: reactWeather
+            src: realEstate,
+            demo: "https://sm-real-estate.vercel.app/",
+            code: "https://github.com/smeet5577/sm-RealEstate", 
         },
         {
             id: 4,
