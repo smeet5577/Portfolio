@@ -12,7 +12,7 @@ const Home = () => {
                 I'm a full-stack Developer 
             </h2>
             <p className='text-gray-500 py-4 max-w-md'> 
-                I have 1 year of Experience building and designing Websites. 
+                I have 2 year of Experience building and designing Websites. 
                 Currently , I work part-time as a freelancer and I love to make projects.   
             </p>
 
